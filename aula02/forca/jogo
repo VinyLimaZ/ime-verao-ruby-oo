@@ -1,0 +1,27 @@
+jogo
+
+usuario digita seu nome
+usuario digita uma palavra
+usuario digita uma letra
+
+
+exibe a tela abaixo a cada jogada
+===============================================================================
+
+_ _ _ _ _ _ _ == palavra.size
+
+===============================================================================
+
+
+
+sistema verifica se a letra é igual a alguma das letras da palavra
+caso acerte atualiza a tela para mostrar a letra acertada
+caso erre desconta 1 das chances
+
+caso acerte a palavra, exiba a tela com a palavra
+    numero de tentativas
+    adiciona 1 ao contador de vitorias
+    pergunta se quer jogar de novo
+        caso positivo volta para o inicio do jogo
+        caso negativo exiba o placar de vitorias e derrotas e encerre
+
